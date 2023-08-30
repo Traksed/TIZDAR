@@ -1,0 +1,18 @@
+{
+	"/dist/js/main.js": "/dist/js/main.js",
+	"/dist/css/main.css": "/dist/css/main.css",
+	"/dist/img/content/logo.svg": "/dist/img/content/logo.svg",
+	"/dist/img/content/no-photo.jpg": "/dist/img/content/no-photo.jpg",
+	"/dist/img/favicon/android-chrome-192x192.png": "/dist/img/favicon/android-chrome-192x192.png",
+	"/dist/img/favicon/android-chrome-256x256.png": "/dist/img/favicon/android-chrome-256x256.png",
+	"/dist/img/favicon/apple-touch-icon.png": "/dist/img/favicon/apple-touch-icon.png",
+	"/dist/img/favicon/browserconfig.xml": "/dist/img/favicon/browserconfig.xml",
+	"/dist/img/favicon/favicon-16x16.png": "/dist/img/favicon/favicon-16x16.png",
+	"/dist/img/favicon/favicon-32x32.png": "/dist/img/favicon/favicon-32x32.png",
+	"/dist/img/favicon/favicon.ico": "/dist/img/favicon/favicon.ico",
+	"/dist/img/favicon/mstile-150x150.png": "/dist/img/favicon/mstile-150x150.png",
+	"/dist/img/favicon/safari-pinned-tab.svg": "/dist/img/favicon/safari-pinned-tab.svg",
+	"/dist/img/favicon/site.webmanifest": "/dist/img/favicon/site.webmanifest",
+	"/dist/img/sprite.svg": "/dist/img/sprite.svg",
+	"/dist/index.html": "/dist/index.html"
+}
