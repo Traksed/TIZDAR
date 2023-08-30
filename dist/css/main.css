@@ -1616,7 +1616,7 @@ body {
   min-height: 100vh;
   background: #fff;
   overflow-x: hidden;
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: "jost", system-ui, sans-serif;
   line-height: 1.4;
   font-size: 16px;
   color: #fff;
@@ -1662,34 +1662,59 @@ strong {
   --gap: 30px;
 }
 
-.content {
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  justify-content: space-between;
+  line-height: 1.4;
+}
+
+.intro {
   min-height: 100%;
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
 }
-.content__tizdar {
+.intro__content {
+  padding: 10% 5% 5% 5%;
   width: 1920px;
   height: 1167px;
   background-image: url(/images/vulcan.png?cf65bffb2d910f96b16c96b8635e4beb);
 }
+.intro__text {
+  font-size: 25px;
+}
+.intro__text--bold {
+  font-weight: 700;
+  font-size: 35px;
+}
+.intro__title {
+  font-size: 250px;
+  font-family: "Kramola", serif;
+}
 
 .header {
+  font-size: 22px;
+  font-weight: 400;
   width: 100%;
   min-height: 80px;
   display: flex;
   align-items: center;
-  position: sticky;
   z-index: 3;
+  position: absolute;
 }
 .header__container {
-  background: #121624;
   max-width: 1720px;
-  margin: 0 auto;
+  margin: 50px auto 0;
   min-height: 50px;
   display: flex;
-  -moz-column-gap: 45px;
-       column-gap: 45px;
+  -moz-column-gap: 220px;
+       column-gap: 220px;
   padding-top: 10px;
   padding-bottom: 10px;
   align-items: center;
@@ -1701,4 +1726,25 @@ strong {
   display: flex;
   -moz-column-gap: 45px;
        column-gap: 45px;
+}
+.header__link .active {
+  font-weight: 700;
+  border-bottom: 2px solid #fff;
+}
+.header__contacts {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  align-items: center;
+}
+.header__tel {
+  font-size: 25px;
+  font-weight: 600;
+}
+.header__button {
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+  border: 2px solid #FFFFFF;
+  font-weight: 700;
 }

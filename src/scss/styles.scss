@@ -50,7 +50,7 @@ body {
 	min-height: 100vh;
 	background: $bg;
 	overflow-x: hidden;
-	font-family: "Inter", system-ui, sans-serif;
+	font-family: 'jost', system-ui, sans-serif;
 	line-height: $line-height;
 	font-size: $text-sm;
 	color: $white;
@@ -92,18 +92,58 @@ strong {
 	--gap: #{$gap};
 }
 
-.content{
+.body{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	overflow-x: hidden;
+	font-size: 22px;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	justify-content: space-between;
+	line-height: 1.4;
+
+}
+
+.intro{
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
 	flex: 1 1 auto;
 
-	&__tizdar{
+	&__content{
+		padding: 10% 5% 5% 5%;
 		width: 1920px;
 		height: 1167px;
 		background-image: url("../img/vulcan.png");
 	}
+
+	&__text{
+		font-size: 25px;
+
+		&--bold{
+			font-weight: 700;
+			font-size: 35px;
+		}
+	}
+
+	&__title{
+		font-size:   250px;
+		font-family: "Kramola", serif;
+	}
+
+	&__introbg{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+
 }
+
+
 
 
 
